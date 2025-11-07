@@ -1,4 +1,3 @@
-import { Product } from '@/types/product';
 import basketImage from '@/assets/product-basket.jpg';
 import potteryImage from '@/assets/product-pottery.jpg';
 import textileImage from '@/assets/product-textile.jpg';
@@ -6,7 +5,7 @@ import wallArtImage from '@/assets/product-wall-art.jpg';
 import jewelryImage from '@/assets/product-jewelry.jpg';
 import clothingImage from '@/assets/product-clothing.jpg';
 
-export const products: Product[] = [
+export const products = [
   {
     id: '1',
     name: 'Handwoven Tribal Basket',

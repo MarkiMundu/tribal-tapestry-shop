@@ -6,13 +6,13 @@ const Category = () => {
   const { category } = useParams();
   const filteredProducts = products.filter((p) => p.category === category);
 
-  const categoryTitles: Record<string, string> = {
+  const categoryTitles = {
     handicrafts: 'Handicrafts',
     'tribal-wear': 'Tribal Wear',
     decorations: 'Decorations',
   };
 
-  const categoryDescriptions: Record<string, string> = {
+  const categoryDescriptions = {
     handicrafts: 'Traditional handcrafted items made with centuries-old techniques',
     'tribal-wear': 'Authentic tribal clothing and accessories with cultural significance',
     decorations: 'Beautiful home décor pieces that bring tribal artistry into your space',

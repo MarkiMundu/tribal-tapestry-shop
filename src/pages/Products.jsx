@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { useState } from 'react';
 
 const Products = () => {
-  const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [selectedCategory, setSelectedCategory] = useState('all');
 
   const filteredProducts = selectedCategory === 'all' 
     ? products 
